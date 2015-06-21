@@ -1,0 +1,127 @@
+body{
+  font-family: verdana;
+  color: #333;
+  background: #EEE;
+}
+
+header a, header a:hover, header a:visited{
+  display: block;
+  color: #333;
+  text-decoration: none;
+}
+
+.header-container{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.centered{
+  width: 75%;
+  margin: 0 auto;
+}
+
+header a:hover{
+  cursor: pointer;
+  border: #EEE 3px solid;
+  background: #CCC;
+  color: #000;
+}
+
+.mainbuttons{
+  border: #CCC 3px solid;
+  border-radius: 2px;
+  padding: 10px;
+  background: #EEE;
+  opacity: 0.8;
+}
+
+.mainbuttons h1{
+  font-size: 1.8em;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+.mainbuttons p{
+  font-size: 1em;
+}
+
+.navbar-form{
+  float: right;
+}
+
+.review{
+  border: solid 1px #C00;
+  border-radius: 2px;
+  padding: 5px;
+  background-color: #DCC;
+  overflow: hidden;
+}
+
+.review + .review{
+  margin-top: 10px;
+}
+
+.review-header{
+  border-bottom: 1px #C00 solid;
+  padding: 5px;
+}
+
+.overall-text{
+  text-align:right;
+  padding-right: 5px;
+}
+
+.overall-text p{
+  height: 25px;
+  line-height: 25px;
+  margin: 0;
+}
+
+.progress-container{
+  height: 25px;
+}
+
+.description{
+  padding: 10px;
+}
+
+/* PROGRESS BAR */
+
+.progress{
+  height: 10px;
+  width: 150px;
+  margin: 0;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.progress-container{
+  height: 25px;
+}
+
+/* ----------------------- */
+
+.requested ul{
+  width: 100%;
+  list-style: none;
+}
+
+.requested ul a, .requested ul a:visited{
+  font-size: 1.3em;
+  color: #700;
+}
+
+.current-reviews{
+  font-size: 1.1em;
+  text-align: right;
+  color: #BBB;
+}
+
+footer{
+  background-color: #111;
+  height: 100px;
+  color: #DDD;
+  line-height: 100px;
+}
